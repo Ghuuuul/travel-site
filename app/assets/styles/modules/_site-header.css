@@ -21,6 +21,10 @@
 	&__btn-container {
 		@mixin atMedium {
 			float: right;
+
+			.site-header--dark & > a {
+				background-color: $mainOrange;
+			}
 		}
 	}
 
